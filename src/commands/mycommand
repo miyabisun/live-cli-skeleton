@@ -1,0 +1,7 @@
+#!/usr/bin/env lsc
+require! \commander
+commander
+  .version "1.0.0"
+  .command "ping", "output pong."
+  .parse process.argv
+

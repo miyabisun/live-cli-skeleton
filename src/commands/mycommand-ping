@@ -1,0 +1,10 @@
+#!/usr/bin/env lsc
+require! \commander
+commander
+  .option "-d, --double", "output pong one more."
+  .description "output pong!"
+  .parse process.argv
+
+console.log \pong
+console.log \pong if commander.double
+

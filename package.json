@@ -1,28 +1,28 @@
 {
-  "name": "node-cli",
+  "name": "live-cli-skeleton",
   "version": "1.0.0",
-  "description": "node-cli on LiveScript",
+  "description": "Node.js cli on LiveScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "mycommand": "./src/commands/mycommand"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miyabisun/node-cli.git"
+    "url": "git+https://github.com/miyabisun/live-cli-skeleton.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miyabisun/node-cli/issues"
+    "url": "https://github.com/miyabisun/live-cli-skeleton/issues"
   },
-  "homepage": "https://github.com/miyabisun/node-cli#readme",
-  "bin": {
-    "mycommand": "index.js"
-  },
+  "homepage": "https://github.com/miyabisun/live-cli-skeleton#readme",
   "dependencies": {
     "commander": "^2.9.0",
-    "livescript": "^1.4.0",
+    "livescript": "^1.5.0",
     "prelude-ls": "^1.1.2"
   }
 }
